@@ -87,7 +87,7 @@ Limited use for other things.
 In the air -- pollution from fossil fuels, burning e-waste
 On earth -- sanitation, landfills, polluting soil, limiting use of space, ecosystem disruption
 In the sea -- undersea cables, mineral extraction byproducts, e-waste shipping, pollution
-In space -- debris, crowding the sky, limit of use
+In space -- debris, crowding the sky scape, congestion, limit of use
 
 # Conclusions
 
