@@ -52,45 +52,52 @@ informative:
   Jansen:
     target: https://doi.org/10.58704/dmnx-1r61
     title: The problem is growth
-    author: Fieke Jansen
+    author:
+      name: Fieke Jansen
     date: 2023
 
   Richardson:
     target: https://www.science.org/doi/abs/10.1126/sciadv.adh2458
     title: Earth beyond six of nine planetary boundaries
-    author = Katherine Richardson
+    author:
+      name: Katherine Richardson
     date: 2023
 
   IPBES:
     target: https://doi.org/10.5281/zenodo.3553579
     title: Summary for Policymakers of the Global Assessment Report on Biodiversity and Ecosystem Services
-    author: IPBES
+    author:
+      org: IPBES
     date: 2019
 
   IPCC:
     target: https://www.ipcc.ch/report/ar6/syr/
     title: International Panel on Climate Change Synthesis Report 2023
-    author: Calvin
+    author:
+      name: Calvin
     date: 2023
 
   Ferreira:
     target: https://doi.org/10.1029/2024GL109280
     title: Potential Ozone Depletion From Satellite Demise During Atmospheric Reentry in the Era of Mega-Constellations
-    author: Ferreira, José P.
+    author:
+      name: Ferreira, José P.
     date: 2024
 
   Oxfam:
     target: https://policy-practice.oxfam.org/resources/climate-equality-a-planet-for-the-99-621551/
-    title: Climate Equality: A planet for the 99% 
-    author: Ashfaq Khalfan
+    title: Climate Equality, A planet for the 99 percent 
+    author:
+      name: Ashfaq Khalfan
+      org: Oxfam
     date: 2023
 
   Dutzik:
     target: https://publicinterestnetwork.org/wp-content/uploads/2024/06/We-Dont-Need-Deep-Sea-Mining-2024.pdf
     title: We Don’t Need Deep-Sea Mining
-    author: Tony Dutzik
+    author:
+      name: Tony Dutzik
     date: 2024
-
 
 --- abstract
 
