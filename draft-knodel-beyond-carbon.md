@@ -33,7 +33,8 @@ informative:
   Manojlovic:
     target: https://datatracker.ietf.org/meeting/interim-2022-eimpactws-01/materials/slides-interim-2022-eimpactws-01-sessa-05-social-00.pdf
     title: Internet Infrastructure and Climate Justice
-    author: Vesna Manojlovic
+    author:
+      name: Vesna Manojlovic
     date: 2022
 
   UN:
