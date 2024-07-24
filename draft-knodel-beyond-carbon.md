@@ -67,6 +67,30 @@ informative:
     author: IPBES
     date: 2019
 
+  IPCC:
+    target: https://www.ipcc.ch/report/ar6/syr/
+    title: International Panel on Climate Change Synthesis Report 2023
+    author: Calvin
+    date: 2023
+
+  Ferreira:
+    target: https://doi.org/10.1029/2024GL109280
+    title: Potential Ozone Depletion From Satellite Demise During Atmospheric Reentry in the Era of Mega-Constellations
+    author: Ferreira, José P.
+    date: 2024
+
+  Oxfam:
+    target: https://policy-practice.oxfam.org/resources/climate-equality-a-planet-for-the-99-621551/
+    title: Climate Equality: A planet for the 99% 
+    author: Ashfaq Khalfan
+    date: 2023
+
+  Dutzik:
+    target: https://publicinterestnetwork.org/wp-content/uploads/2024/06/We-Dont-Need-Deep-Sea-Mining-2024.pdf
+    title: We Don’t Need Deep-Sea Mining
+    author: Tony Dutzik
+    date: 2024
+
 
 --- abstract
 
@@ -90,24 +114,31 @@ This document summarizes the most promising mitigations in the context of intern
 
 This section is arranged in three sub-sections: 2.1. Carbon, 2.2. Natural Resources and 2.3. Waste. In the first section, of course carbon is a natural resource but in this document we rely on the vast research and documentation elsewhere to discuss the consumption of energy and its emissions in the form of greenhouse gas. Land, water, electromagnetic spectrum and minerals are all finite, non-renewable resources that are consumed by internet infrastructure and these impacts are explained in depth with citations. Lastly waste is discussed as its own very consequential impact on the pollution of the rest of the environment, living and nonliving.
 
-## Carbon 
+## Carbon
 
-Carbon footprint -- emissions, global warming, ozone layer.
-Energy consumption -- unequal distribution and limitations on use for other purposes.
+Carbon footprint is a concept that takes into consideration emissions and global warming and the ozone layer. The projected impacts, and mitigations of global warming are extensively detailed in the Intergovernmental Panel on Climate Change’s sixth assessment [IPCC]. Progress on allowing the ozone layer to recover since the 1980s is at risk of being undone as a result of the deployment of low-earth orbit constellation satellites [Ferreira].
+
+Energy consumption is the unequal distribution of and limitations on use of carbon energy for various purposes. The share of global carbon emissions is unevenly distributed across countries, but also within countries across income levels [Oxfam].
 
 ## Natural resources
 
+Natural resources such as land, water, minerals and electromagnetic spectrum are all impacted by increased digitalisation and the growth of the internet. The Earth-system-science framework defining the nine “planetary boundaries” of Earth concludes that six of these have been transgressed, suggesting that Earth is now well outside of the safe operating space for humanity. [Richardson]
+
 ### Land
 
-Finite space / limit of use for other humans,
-Animals and other ecosystems, too [Vesna]
-Disruption of the sea bed
+Internet infrastructure is often strategically placed geographically and geopolitically and impacts the finite space of the Earth’s crust and limits use of this land for other humans.
+
+Animals and other ecosystems. The Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) Global Assessment Report on Biodiversity and Ecosystem Services in 2019 provided a IPCC-like basis for policy and decision making, evaluating 15000 scientific publications, from 145 authors from 40 countries. It found 82% of wild mammal biomass had been lost in the last 50 years, and called for transformative changes to avoid further biodiversity loss. [IPBES]
+
+Undersea internet cables and related infrastructure disrupt the sea bed. Furthermore untouched areas of the deep sea are being proposed for mining instead of reusing minerals already in circulation [Dutzik].
 
 ### Water
 
-For cooling,
-For mineral extraction,
-Limits use for other humans but animals and other ecosystems, too [Vesna]
+For cooling.
+
+For mineral extraction.
+
+Limits use for other humans but animals and other ecosystems, too [Manojlovic]
 
 ### Electromagnetic spectrum
 
@@ -115,23 +146,40 @@ Finite resource allocated to large companies and developed countries despite ITU
 
 ### Minerals
 
-Extractive of finite resources which minerals,
-Use of water,
-Effects of scarring and degrading earth crust,
-Destroying habitats,
-Poisonous at the time of extraction,
+Extractive of finite resources which minerals.
+
+Use of water.
+
+Effects of scarring and degrading earth crust.
+
+Destroying habitats.
+
+Poisonous at the time of extraction.
+
 Limited use for other things.
 
 ## Waste
 
-In the air -- pollution from fossil fuels, burning e-waste
-On earth -- sanitation, landfills, polluting soil, limiting use of space, ecosystem disruption
-In the sea -- undersea cables, mineral extraction byproducts, e-waste shipping, pollution
-In space -- debris, crowding the sky scape, congestion, limit of use
+In the air -- pollution from fossil fuels, burning e-waste. 
+
+On earth -- sanitation, landfills, polluting soil, limiting use of space, ecosystem disruption.
+
+In the sea -- undersea cables, mineral extraction byproducts, e-waste shipping, pollution.
+
+In space -- debris, crowding the sky scape, congestion, limit of use.
+
+# Guiding Principles
+
+As the practice of digital sustainability is still in development, we suggest the following principles to guide IETF’s approach to the topic. These principles are designed to be more enduring concepts that can inform solutions even as the technical specifics of those solutions evolve with the field.  
+
+* Open and fair: Claims about environmental impacts must be publicly verifiable, such as linking to publicly available evidence and allowing third party auditing. Publicly verifiable evidence contributes to higher confidence in the measurements and facilitates independent monitoring and assessment as well as ensures fairer participation and competition. 
+* Timely: Where possible, move towards real-time information about impacts over an annual cadence or slower cadence. More timely data enables more responsiveness and a higher resolution of understanding.
+* Within planetary boundaries: Treat the carrying capacity of the planet, as determined by the best available science, as a constraint to work within. There is a safe operating capacity of the planet, that when breached represents a critical risk to people and ecosystems we are part of, causing avoidable harm.
+* Demand and supply can both be levers: Reducing demand for resources is also a valid and important approach in addition to providing supply more efficiently.
 
 # Conclusions
 
-Particular takeaways to mitigate effects: reduce extraction, efficiency in architecture to reduce cooling, more equitable resource distribution, data localisation impacts, backwards compatibility and protocol maintenance as antidoes to "Green IP".
+Particular takeaways to mitigate effects: reduce extraction, efficiency in architecture to reduce cooling, more equitable resource distribution, data localisation impacts, backwards compatibility and protocol maintenance as antidotes to "Green IP".
 
 # Security Considerations
 
