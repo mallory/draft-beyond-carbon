@@ -26,6 +26,14 @@ author:
     fullname: Mallory Knodel
     organization: CDT
     email: mknodel@cdt.org
+ -
+    fullname: Chris Adams
+    organization: Green Web Foundation
+    email: 
+ -
+    fullname: Michelle Thorne
+    organization: Green Web Foundation
+    email: michelle@thegreenwebfoundation.org
 
 normative:
 
