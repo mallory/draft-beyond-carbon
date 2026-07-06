@@ -108,6 +108,74 @@ informative:
       name: Tony Dutzik
     date: 2024
 
+  Hogan:
+    target: https://ephemerajournal.org/sites/default/files/pdfs/contribution/18-3hogan.pdf
+    title: Big Data Ecologies
+    author:
+      name: Mél Hogan
+    date: 2018
+
+  Akese:
+    target: https://research.library.mun.ca/14273/
+    title: "Electronic Waste (e-Waste) Science and Advocacy at Agbogbloshie: The Making and Effects of the World's Largest e-Waste Dump"
+    author:
+      name: Grace Abena Akese
+    date: 2019
+
+  Bender:
+    target: https://dl.acm.org/doi/10.1145/3442188.3445922
+    title: "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"
+    author:
+      name: Emily M. Bender
+    date: 2021
+
+  King:
+    target: https://github.com/intarchboard/e-impact-workshop-public/blob/main/papers/King-Krishnan-Pignataro-Thubert-Voit_On-Principles-for-a-Sustainability-Stack.pdf
+    title: On Principles for a Sustainability Stack
+    author:
+      -
+        name: Michael King
+      -
+        name: Suresh Krishnan
+      -
+        name: Carlos Pignataro
+      -
+        name: Pascal Thubert
+      -
+        name: Eric Voit
+    date: 2022
+
+  Nordman:
+    target: https://github.com/intarchboard/e-impact-workshop-public/blob/main/papers/Nordman_Applying-Internet-Architecture-to-Energy-Systems.pdf
+    title: Applying Internet Architecture to Energy Systems
+    author:
+      name: Bruce Nordman
+    date: 2022
+
+  JansenCath:
+    target: https://doi.org/10.5281/zenodo.11059837
+    title: "Down with Data Centres: Developing Critical Policy"
+    author:
+      -
+        name: Fieke Jansen
+      -
+        name: Corinne Cath
+    date: 2024
+
+  EcodesignServers:
+    target: https://eur-lex.europa.eu/eli/reg/2019/424/oj
+    title: "Commission Regulation (EU) 2019/424 Laying Down Ecodesign Requirements for Servers and Data Storage Products"
+    author:
+      org: European Commission
+    date: 2019
+
+  EED:
+    target: https://eur-lex.europa.eu/eli/dir/2023/1791/oj
+    title: "Directive (EU) 2023/1791 on Energy Efficiency (recast)"
+    author:
+      org: European Union
+    date: 2023
+
 --- abstract
 
 The global internet is comprised of vast interconnected networks spanning nearly every surface of planet and sky that, together with user devices, consumes energy and emits greenhouse gases. The true scale and proposed mitigations of the carbon footprint of the internet are the subject of important research. The internet also requires the depletion of other natural resources beyond carbon, namely land, water, electromagnetic spectrum and minerals. Electronic waste contributes in particularly acute ways to environmental pollution. This document surveys the impacts of the internet on the environment and includes, but goes beyond, energy use and carbon footprint to look at the consumption of natural resources and environmental waste.
@@ -117,6 +185,8 @@ The global internet is comprised of vast interconnected networks spanning nearly
 # Introduction
 
 Much research has been invested in understanding environmental impacts. Research such as the ‘UN Digital Economy Report: Shaping an environmentally sustainable and inclusive digital future’ examines the true scale and proposed mitigations of the carbon footprint of the internet [UN]. Related research by the World Health Organisation primer on the health impacts of e-Waste details the harms incurred when the majority of e-waste is processed [WHO].
+
+This document originated in discussions at the 2022 IAB Workshop on Environmental Impact of Internet Applications and Systems [RFC9547].
 
 This document aims to briefly categorize a complete survey of environmental impacts due to a global internet operating at scale. It is the expectation that these impacts are persistent and some will have few to no mitigations, even given a very long arc of innovation and scientific advancement. That is because each of these impacts are intimately tied to the physical limits of our planet, which are far more finite than our imaginations are capacious [Jansen].
 
@@ -148,37 +218,41 @@ Animals and other ecosystems. The Intergovernmental Science-Policy Platform on B
 
 Undersea internet cables and related infrastructure disrupt the sea bed. Furthermore untouched areas of the deep sea are being proposed for mining instead of reusing minerals already in circulation [Dutzik].
 
+Data centers themselves form a distinct land-use ecology, reshaping the geography, water tables, and energy grids of the regions that host them [Hogan].
+
+Two broad approaches to data center governance have emerged. One is centered on market efficiency, intellectual property protection, and continued growth, often citing competitive advantages such as favorable climate or existing infrastructure. The other treats land, water, and energy as scarce resources rather than assuming their abundance, and argues for centring people and planet over profit and capital [JansenCath]. Product-level standards, such as the EU's ecodesign requirements for servers and data storage products, offer a standards-based lever that could help operationalize this latter approach in law, constraining resource use and waste regardless of ownership model [EcodesignServers].
+
 ### Water
 
-For cooling.
+Water is used to cool data centers and other internet infrastructure.
 
-For mineral extraction.
+Water is also consumed in the extraction and processing of minerals used to build that infrastructure.
 
-Limits use for other humans but animals and other ecosystems, too [Manojlovic]
+This limits the availability of water for other human, animal, and ecosystem needs [Manojlovic].
 
 ### Electromagnetic spectrum
 
-Finite resource allocated to large companies and developed countries despite ITU pledge to allocate otherwise.
+Electromagnetic spectrum is a finite resource that continues to be allocated disproportionately to large companies and wealthier countries, despite ITU commitments to more equitable allocation.
 
 ### Minerals
 
-Extractive of finite resources which minerals.
+Mineral extraction depletes finite resources.
 
-Use of water.
+Extraction requires significant water use.
 
-Effects of scarring and degrading earth crust.
+It scars and degrades the Earth's crust.
 
-Destroying habitats.
+It destroys habitats.
 
-Poisonous at the time of extraction.
+Extraction processes are toxic at the point of extraction.
 
-Limited use for other things.
+This limits the availability of land for other uses.
 
 ## Waste
 
 In the air -- pollution from fossil fuels, burning e-waste. 
 
-On earth -- sanitation, landfills, polluting soil, limiting use of space, ecosystem disruption.
+On earth -- sanitation, landfills, polluting soil, limiting use of space, ecosystem disruption, as documented at e-waste processing sites such as Agbogbloshie, Ghana [Akese].
 
 In the sea -- undersea cables, mineral extraction byproducts, e-waste shipping, pollution.
 
@@ -186,16 +260,16 @@ In space -- debris, crowding the sky scape, congestion, limit of use.
 
 # Guiding Principles
 
-As the practice of digital sustainability is still in development, we suggest the following principles to guide IETF’s approach to the topic. These principles are designed to be more enduring concepts that can inform solutions even as the technical specifics of those solutions evolve with the field.  
+As the practice of digital sustainability is still in development, we suggest the following principles to guide IETF’s approach to the topic, building on prior proposals for a sustainability stack for Internet architecture [King]. These principles are designed to be more enduring concepts that can inform solutions even as the technical specifics of those solutions evolve with the field.  
 
-* Open and fair: Claims about environmental impacts must be publicly verifiable, such as linking to publicly available evidence and allowing third party auditing. Publicly verifiable evidence contributes to higher confidence in the measurements and facilitates independent monitoring and assessment as well as ensures fairer participation and competition. 
-* Timely: Where possible, move towards real-time information about impacts over an annual cadence or slower cadence. More timely data enables more responsiveness and a higher resolution of understanding.
+* Open and fair: Claims about environmental impacts must be publicly verifiable, such as linking to publicly available evidence and allowing third party auditing. Publicly verifiable evidence contributes to higher confidence in the measurements and facilitates independent monitoring and assessment as well as ensures fairer participation and competition, as in mandatory public reporting regimes such as the EU's data center sustainability indicators [EED].
+* Timely: Where possible, move towards real-time information about impacts over an annual cadence or slower cadence. More timely data enables more responsiveness and a higher resolution of understanding, as called for in ongoing work on green networking metrics and management [I-D.cx-opsawg-green-metrics] [RFC9845].
 * Within planetary boundaries: Treat the carrying capacity of the planet, as determined by the best available science, as a constraint to work within. There is a safe operating capacity of the planet, that when breached represents a critical risk to people and ecosystems we are part of, causing avoidable harm.
-* Demand and supply can both be levers: Reducing demand for resources is also a valid and important approach in addition to providing supply more efficiently.
+* Demand and supply can both be levers: Reducing demand for resources is also a valid and important approach in addition to providing supply more efficiently, including by applying Internet architecture principles to energy systems directly [Nordman].
 
 # Conclusions
 
-Particular takeaways to mitigate effects: reduce extraction, efficiency in architecture to reduce cooling, more equitable resource distribution, data localisation impacts, backwards compatibility and protocol maintenance as antidotes to "Green IP".
+Key mitigations include reducing extraction, improving architectural efficiency to reduce cooling needs, and distributing resources more equitably. Data localisation choices also affect environmental impact. Backwards compatibility and protocol maintenance can serve as antidotes to premature hardware obsolescence, sometimes termed "Green IP". The rapid growth of computationally-intensive applications, such as large language models, is a significant new driver of this resource demand [Bender].
 
 # Security Considerations
 
