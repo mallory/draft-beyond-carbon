@@ -162,6 +162,20 @@ informative:
         name: Corinne Cath
     date: 2024
 
+  L1410:
+    target: https://www.itu.int/rec/T-REC-L.1410
+    title: "Methodology for Environmental Life Cycle Assessments of Information and Communication Technology Goods, Networks and Services"
+    author:
+      org: ITU-T Study Group 5
+    date: 2024
+
+  ITUSG5Biodiversity:
+    target: https://www.itu.int/ITU-T/workprog/wp_search.aspx?q=9/5
+    title: "ITU-T Study Group 5, Question 9/5: L.Biodiversity_footprint and L.Biodiversity_opportunities (Work in Progress)"
+    author:
+      org: ITU-T Study Group 5
+    date: 2026
+
   IEA:
     target: https://www.iea.org/energy-system/buildings/data-centres-and-data-transmission-networks
     title: Data Centres and Data Transmission Networks
@@ -254,7 +268,7 @@ The global internet is comprised of vast interconnected networks spanning nearly
 
 The internet is the biggest machine we've ever created, extending from the depths of the ocean all the way to low earth orbit.
 
-Much research has been invested in understanding environmental impacts. Research such as the ‘UN Digital Economy Report: Shaping an environmentally sustainable and inclusive digital future’ examines the true scale and proposed mitigations of the carbon footprint of the internet [UN]. Related research by the World Health Organisation primer on the health impacts of e-Waste details the harms incurred when the majority of e-waste is processed [WHO].
+Much research has been invested in understanding environmental impacts. Research such as the ‘UN Digital Economy Report: Shaping an environmentally sustainable and inclusive digital future’ examines the true scale and proposed mitigations of the carbon footprint of the internet [UN]. Related research by the World Health Organisation primer on the health impacts of e-Waste details the harms incurred when the majority of e-waste is processed [WHO]. Standardized methodologies also exist for conducting these assessments, such as ITU-T Recommendation L.1410 for life cycle assessments of ICT goods, networks, and services [L1410].
 
 This document originated in discussions at the 2022 IAB Workshop on Environmental Impact of Internet Applications and Systems [RFC9547].
 
@@ -290,7 +304,9 @@ These resources raise two distinct kinds of scarcity. Some are finite in total q
 
 Internet infrastructure is often strategically placed geographically and geopolitically. While the Earth's crust is finite in total (a background abundance constraint), the more immediate impact is one of capacity: a given site, once occupied by internet infrastructure, cannot simultaneously be used by other humans.
 
-Animals and other ecosystems. The Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) Global Assessment Report on Biodiversity and Ecosystem Services in 2019 provided a IPCC-like basis for policy and decision making, evaluating 15000 scientific publications, from 145 authors from 40 countries. It found 82% of wild mammal biomass had been lost in the last 50 years, and called for transformative changes to avoid further biodiversity loss. [IPBES]
+This scarcity of land also affects animals and other ecosystems. The Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) Global Assessment Report on Biodiversity and Ecosystem Services in 2019 provided a IPCC-like basis for policy and decision making, evaluating 15000 scientific publications, from 145 authors from 40 countries. It found 82% of wild mammal biomass had been lost in the last 50 years, and called for transformative changes to avoid further biodiversity loss. [IPBES]
+
+A "handprint" is a concept developed in contrast to footprint, to quantify the positive environmental impact of a technology, product, or organization. Footprint and handprint are calculated independently, with footprint minimized and handprint maximized; a positive handprint should not be treated as compensating for a negative footprint, as doing so risks greenwashing [ITUSG5Biodiversity].
 
 Undersea internet cables and related infrastructure disrupt the sea bed. Furthermore untouched areas of the deep sea are being proposed for mining instead of reusing minerals already in circulation [Dutzik]. In addition, undersea internet cables face growing risk from extreme weather and sea level rise affecting the coastal infrastructure they depend on [Durairajan].
 
