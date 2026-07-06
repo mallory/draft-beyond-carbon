@@ -25,8 +25,8 @@ venue:
 author:
  -
     fullname: Mallory Knodel
-    organization: CDT
-    email: mknodel@cdt.org
+    organization: NYU
+    email: mallory.knodel@nyu.edu
  -
     fullname: Chris Adams
     organization: Green Web Foundation
