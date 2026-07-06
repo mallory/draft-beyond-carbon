@@ -245,6 +245,25 @@ informative:
       org: World Bank
     date: 2020
 
+  WhiteCaseESG:
+    target: https://www.whitecase.com/insight-our-thinking/taking-esg-seriously-crucial-role-mining-investors-energy-transition
+    title: "Taking ESG Seriously: The Crucial Role of Mining Investors in the Energy Transition"
+    author:
+      -
+        name: Oliver Wright
+      -
+        name: Andrew Weisberg
+      -
+        name: Terrel Ferguson
+    date: 2021
+
+  CSRD:
+    target: https://eur-lex.europa.eu/eli/dir/2022/2464/oj/eng
+    title: "Directive (EU) 2022/2464 as Regards Corporate Sustainability Reporting"
+    author:
+      org: European Union
+    date: 2022
+
   Roussilhe:
     target: https://gauthierroussilhe.com/en/articles/water-and-microchips-the-climatic-and-industrial-future-of-taiwan
     title: "Water and Microchips: The Climatic and Industrial Future of Taiwan"
@@ -295,6 +314,8 @@ This document aims to briefly categorize a complete survey of environmental impa
 It is, however, of utmost importance to confront and understand the planet's limitations and the ways in which internet growth pushes up against them.
 
 A 'climate justice' approach to building internet architecture not only reduces the internet’s own environmental impact but reduces overall environmental impacts of our society. [Manojlovic]
+
+Environmental, Social, and Governance (ESG) frameworks are a related but distinct lens through which the impacts of internet infrastructure are increasingly assessed. In practice, however, ESG analysis of the technology sector tends to reduce to a tension between mining, for the battery and mineral inputs of the energy transition, and energy, from nonrenewable sources -- a reductionist frame relative to the fuller set of impacts surveyed in this document [WhiteCaseESG]. Nonetheless, addressing these impacts is also increasingly a business imperative: customers increasingly demand it, and regulation increasingly requires it, as with the EU's Corporate Sustainability Reporting Directive [CSRD] and Energy Efficiency Directive [EED].
 
 This document summarizes the most promising mitigations in the context of internet networking. We further suggest a principled approach to guide understanding the problem space and taking measurable action. Our proposed approach aims for technical excellence, is informed by prior implementation and testing, documents clearly and concisely; and is open and fair in its assessments.
 
