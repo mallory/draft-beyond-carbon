@@ -4,21 +4,22 @@ abbrev: "Beyond Carbon"
 category: info
 
 docname: draft-knodel-beyond-carbon-latest
-submissiontype: IAB
+submissiontype: IRTF
 number:
 date:
 consensus: true
 v: 3
-area: AREA
-workgroup: WG Working Group
+area:
+workgroup: Sustainability and the Internet (SUSTAIN) RG
 keyword:
  - e-impact
+ - sustain
 venue:
-  group:
-  type: 
-  mail: 
-  arch: 
-  github:
+  group: SUSTAIN
+  type: Research Group
+  mail: sustain@irtf.org
+  arch: https://datatracker.ietf.org/rg/sustain/about/
+  github: mallory/draft-beyond-carbon
   latest: 
 
 author:
@@ -29,7 +30,7 @@ author:
  -
     fullname: Chris Adams
     organization: Green Web Foundation
-    email: 
+    email: chris@greenweb.org
  -
     fullname: Michelle Thorne
     organization: Green Web Foundation
@@ -268,9 +269,9 @@ The global internet is comprised of vast interconnected networks spanning nearly
 
 The internet is the biggest machine we've ever created, extending from the depths of the ocean all the way to low earth orbit.
 
-Much research has been invested in understanding environmental impacts. Research such as the ‘UN Digital Economy Report: Shaping an environmentally sustainable and inclusive digital future’ examines the true scale and proposed mitigations of the carbon footprint of the internet [UN]. Related research by the World Health Organisation primer on the health impacts of e-Waste details the harms incurred when the majority of e-waste is processed [WHO]. Standardized methodologies also exist for conducting these assessments, such as ITU-T Recommendation L.1410 for life cycle assessments of ICT goods, networks, and services [L1410].
+Much research has been invested in understanding environmental impacts. Research such as the ‘United Nations (UN) Digital Economy Report: Shaping an environmentally sustainable and inclusive digital future’ examines the true scale and proposed mitigations of the carbon footprint of the internet [UN]. Related research by the World Health Organisation primer on the health impacts of e-Waste details the harms incurred when the majority of e-waste is processed [WHO]. Standardized methodologies also exist for conducting these assessments, such as Recommendation L.1410 from the International Telecommunication Union's Telecommunication Standardization Sector (ITU-T) for life cycle assessments of information and communication technology (ICT) goods, networks, and services [L1410].
 
-This document originated in discussions at the 2022 IAB Workshop on Environmental Impact of Internet Applications and Systems [RFC9547].
+This document originated in discussions at the 2022 Internet Architecture Board (IAB) Workshop on Environmental Impact of Internet Applications and Systems [RFC9547].
 
 This document aims to briefly categorize a complete survey of environmental impacts due to a global internet operating at scale. It is the expectation that these impacts are persistent and some will have few to no mitigations, even given a very long arc of innovation and scientific advancement. That is because each of these impacts are intimately tied to the physical limits of our planet, which are far more finite than our imaginations are capacious [Jansen].
 
@@ -290,7 +291,7 @@ Carbon footprint is a concept that takes into consideration emissions and global
 
 A primary driver of the carbon emissions of internet infrastructure stems from the energy sources powering it. Not only is it often powered by non-renewable energy sources [IEA], but the amount of energy used is increasing faster than efficiency gains can offset [UptimeInstitute].
 
-In addition, the chip and semiconductor sector has a significant environmental footprint [StandEarth], as do other emerging digital technologies, notably artificial intelligence [SmithAdams]. The packaging and global transport of network equipment and end user devices is a further, often overlooked, source of carbon emissions.
+In addition, the chip and semiconductor sector has a significant environmental footprint [StandEarth], as do other emerging digital technologies, notably artificial intelligence (AI) [SmithAdams]. The packaging and global transport of network equipment and end user devices is a further, often overlooked, source of carbon emissions.
 
 Energy consumption is the unequal distribution of and limitations on use of carbon energy for various purposes. The share of global carbon emissions is unevenly distributed across countries, but also within countries across income levels [Oxfam].
 
@@ -312,7 +313,7 @@ Undersea internet cables and related infrastructure disrupt the sea bed. Further
 
 Data centers themselves form a distinct land-use ecology, reshaping the geography, water tables, and energy grids of the regions that host them [Hogan].
 
-Two broad approaches to data center governance have emerged. One is centered on market efficiency, intellectual property protection, and continued growth, often citing competitive advantages such as favorable climate or existing infrastructure. The other treats land, water, and energy as scarce resources rather than assuming their abundance, and argues for centring people and planet over profit and capital [JansenCath]. Product-level standards, such as the EU's ecodesign requirements for servers and data storage products, offer a standards-based lever that could help operationalize this latter approach in law, constraining resource use and waste regardless of ownership model [EcodesignServers].
+Two broad approaches to data center governance have emerged. One is centered on market efficiency, intellectual property protection, and continued growth, often citing competitive advantages such as favorable climate or existing infrastructure. The other treats land, water, and energy as scarce resources rather than assuming their abundance, and argues for centring people and planet over profit and capital [JansenCath]. Product-level standards, such as the European Union's (EU) ecodesign requirements for servers and data storage products, offer a standards-based lever that could help operationalize this latter approach in law, constraining resource use and waste regardless of ownership model [EcodesignServers].
 
 ### Water
 
