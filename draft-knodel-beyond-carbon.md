@@ -162,6 +162,74 @@ informative:
         name: Corinne Cath
     date: 2024
 
+  IEA:
+    target: https://www.iea.org/energy-system/buildings/data-centres-and-data-transmission-networks
+    title: Data Centres and Data Transmission Networks
+    author:
+      org: International Energy Agency
+    date: 2024
+
+  UptimeInstitute:
+    target: https://network.uptimeinstitute.com/sites/default/files/mammoth/2023/09/12/Keynote%20report%2034_Beyond%20PUE_Tackling%20IT%27s%20wasted%20terawatts.pdf
+    title: "Beyond PUE: Tackling IT's Wasted Terawatts"
+    author:
+      -
+        name: Rabih Bashroush
+      -
+        name: Andy Lawrence
+    date: 2020
+
+  StandEarth:
+    target: https://stand.earth/wp-content/uploads/2024/02/Clean-Clicks-or-Dirty-Chips-Feb-2024_230224.pdf
+    title: "Clean Clicks or Dirty Chips? Despite Commitments to 100% Renewable Energy, U.S. Semiconductor Expansion Driving Demand for Dirty Energy"
+    author:
+      org: Stand.earth
+    date: 2024
+
+  SmithAdams:
+    target: https://www.thegreenwebfoundation.org/publications/report-ai-environmental-impact/
+    title: "Thinking About Using AI? Here's What You Can and (Probably) Can't Change About Its Environmental Impact"
+    author:
+      -
+        name: Hannah Smith
+      -
+        name: Chris Adams
+    date: 2024
+
+  Durairajan:
+    target: https://dl.acm.org/doi/10.1145/3232755.3232775
+    title: "Lights Out: Climate Change Risk to Internet Infrastructure"
+    author:
+      -
+        name: Ramakrishnan Durairajan
+      -
+        name: Carol Barford
+      -
+        name: Paul Barford
+    date: 2018
+
+  Mytton:
+    target: https://www.nature.com/articles/s41545-021-00101-w
+    title: Data Centre Water Consumption
+    author:
+      name: David Mytton
+    date: 2021
+
+  MetalsGreenEurope:
+    target: https://www.wetenschappelijkbureaugroenlinks.nl/sites/wetenschappelijkbureau/files/2021-09/Metals_for_a_Green_and_Digital_Europe_A4_web.pdf
+    title: "Metals for a Green and Digital Europe: An Agenda for Action"
+    author:
+      org: Green European Foundation
+    date: 2021
+
+  WorldBankMinerals:
+    target: https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099052423172525564/p16627806f5aa400508f8c0bdcba0878a3e
+    title: "Minerals for Climate Action: The Mineral Intensity of the Clean Energy Transition"
+    author:
+      name: Kirsten Hund
+      org: World Bank
+    date: 2020
+
   EcodesignServers:
     target: https://eur-lex.europa.eu/eli/reg/2019/424/oj
     title: "Commission Regulation (EU) 2019/424 Laying Down Ecodesign Requirements for Servers and Data Storage Products"
@@ -204,6 +272,10 @@ This section is arranged in three sub-sections: 2.1. Carbon, 2.2. Natural Resour
 
 Carbon footprint is a concept that takes into consideration emissions and global warming and the ozone layer. The projected impacts, and mitigations of global warming are extensively detailed in the Intergovernmental Panel on Climate Change’s sixth assessment [IPCC]. Progress on allowing the ozone layer to recover since the 1980s is at risk of being undone as a result of the deployment of low-earth orbit constellation satellites [Ferreira].
 
+A primary driver of the carbon emissions of internet infrastructure stems from the energy sources powering it. Not only is it often powered by non-renewable energy sources [IEA], but the amount of energy used is increasing faster than efficiency gains can offset [UptimeInstitute].
+
+In addition, the chip and semiconductor sector has a significant environmental footprint [StandEarth], as do other emerging digital technologies, notably artificial intelligence [SmithAdams].
+
 Energy consumption is the unequal distribution of and limitations on use of carbon energy for various purposes. The share of global carbon emissions is unevenly distributed across countries, but also within countries across income levels [Oxfam].
 
 ## Natural resources
@@ -216,7 +288,7 @@ Internet infrastructure is often strategically placed geographically and geopoli
 
 Animals and other ecosystems. The Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) Global Assessment Report on Biodiversity and Ecosystem Services in 2019 provided a IPCC-like basis for policy and decision making, evaluating 15000 scientific publications, from 145 authors from 40 countries. It found 82% of wild mammal biomass had been lost in the last 50 years, and called for transformative changes to avoid further biodiversity loss. [IPBES]
 
-Undersea internet cables and related infrastructure disrupt the sea bed. Furthermore untouched areas of the deep sea are being proposed for mining instead of reusing minerals already in circulation [Dutzik].
+Undersea internet cables and related infrastructure disrupt the sea bed. Furthermore untouched areas of the deep sea are being proposed for mining instead of reusing minerals already in circulation [Dutzik]. In addition, undersea internet cables face growing risk from extreme weather and sea level rise affecting the coastal infrastructure they depend on [Durairajan].
 
 Data centers themselves form a distinct land-use ecology, reshaping the geography, water tables, and energy grids of the regions that host them [Hogan].
 
@@ -224,9 +296,7 @@ Two broad approaches to data center governance have emerged. One is centered on 
 
 ### Water
 
-Water is used to cool data centers and other internet infrastructure.
-
-Water is also consumed in the extraction and processing of minerals used to build that infrastructure.
+Water is used extensively throughout the digital technology sector, particularly within data centers for cooling, for mineral extraction and production, and for chip and semiconductor manufacturing [Mytton]. Water use continues to increase, driven primarily by more advanced AI and cloud computing needs, and often places strain on water resources in the communities surrounding data centers. This depletes water sources and impacts biodiversity; many data centers, chip fabs, and other digital infrastructure are also being built in water-stressed areas such as Spain and the U.S. state of Arizona.
 
 This limits the availability of water for other human, animal, and ecosystem needs [Manojlovic].
 
@@ -248,6 +318,8 @@ Extraction processes are toxic at the point of extraction.
 
 This limits the availability of land for other uses.
 
+Global mineral extraction, processing, and refining also carries significant human rights impacts, including the use of forced labor for minerals sourced from conflict zones [MetalsGreenEurope]. Despite minerals being finite resources, demand for them continues to grow rapidly as new digital and energy technologies depend on them [WorldBankMinerals].
+
 ## Waste
 
 In the air -- pollution from fossil fuels, burning e-waste. 
@@ -267,6 +339,10 @@ As the practice of digital sustainability is still in development, we suggest th
 * Within planetary boundaries: Treat the carrying capacity of the planet, as determined by the best available science, as a constraint to work within. There is a safe operating capacity of the planet, that when breached represents a critical risk to people and ecosystems we are part of, causing avoidable harm.
 * Demand and supply can both be levers: Reducing demand for resources is also a valid and important approach in addition to providing supply more efficiently, including by applying Internet architecture principles to energy systems directly [Nordman].
 * Backwards compatibility: The maintenance of existing protocols and backwards compatibility in protocol design, as opposed to new protocol stacks such as "Green IP", reduces the need to manufacture new networking hardware and end user devices.
+* Full-stack integration: Sustainability should be integrated throughout the stack, from software design and refurbished hardware procurement to grid-aware computing and the choice of hosting providers powered by renewable energy.
+* Sustainable procurement: Sustainable and rights-respecting procurement practices should be prioritized and embedded throughout an organization.
+* Sustainability by design: Sustainability should be embedded from the start of a project or protocol's design, not added as an afterthought.
+* Data sharing: Sharing data about resource consumption improves reporting and transparency and helps create measurable benchmarks.
 
 # Conclusions
 
@@ -284,4 +360,4 @@ This document has no IANA actions.
 
 # Acknowledgments
 
-TODO acknowledge.
+The authors would like to thank Michael Oghia for his detailed review and suggested additions to this document.
