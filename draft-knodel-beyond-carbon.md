@@ -284,9 +284,11 @@ Energy consumption is the unequal distribution of and limitations on use of carb
 
 Natural resources such as land, water, minerals and electromagnetic spectrum are all impacted by increased digitalisation and the growth of the internet. The Earth-system-science framework defining the nine “planetary boundaries” of Earth concludes that six of these have been transgressed, suggesting that Earth is now well outside of the safe operating space for humanity. [Richardson]
 
+These resources raise two distinct kinds of scarcity. Some are finite in total quantity because they are non-renewable, raising the question of whether there is enough to go around at all. Others raise a related but orthogonal issue of capacity, which is space-time dependent: whether there is enough to go around at a specific place and time, a question of equitable distribution and usage rather than total abundance.
+
 ### Land
 
-Internet infrastructure is often strategically placed geographically and geopolitically and impacts the finite space of the Earth’s crust and limits use of this land for other humans.
+Internet infrastructure is often strategically placed geographically and geopolitically. While the Earth's crust is finite in total (a background abundance constraint), the more immediate impact is one of capacity: a given site, once occupied by internet infrastructure, cannot simultaneously be used by other humans.
 
 Animals and other ecosystems. The Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) Global Assessment Report on Biodiversity and Ecosystem Services in 2019 provided a IPCC-like basis for policy and decision making, evaluating 15000 scientific publications, from 145 authors from 40 countries. It found 82% of wild mammal biomass had been lost in the last 50 years, and called for transformative changes to avoid further biodiversity loss. [IPBES]
 
@@ -298,17 +300,17 @@ Two broad approaches to data center governance have emerged. One is centered on 
 
 ### Water
 
-Water is used extensively throughout the digital technology sector, particularly within data centers for cooling, for mineral extraction and production, and for chip and semiconductor manufacturing [Mytton]. Water use continues to increase, driven primarily by more advanced AI and cloud computing needs, and often places strain on water resources in the communities surrounding data centers. This depletes water sources and impacts biodiversity; many data centers, chip fabs, and other digital infrastructure are also being built in water-stressed areas such as Spain and the U.S. state of Arizona.
+Water is used extensively throughout the digital technology sector, particularly within data centers for cooling, for mineral extraction and production, and for chip and semiconductor manufacturing [Mytton]. Water is renewable at a global scale, so the primary issue is one of capacity rather than abundance: whether enough is available in a specific place at a specific time. Water use continues to increase, driven primarily by more advanced AI and cloud computing needs, and often places strain on water resources in the communities surrounding data centers, an effect compounded where non-renewable groundwater aquifers -- themselves an abundance-constrained resource -- are drawn down faster than they can recharge. Many data centers, chip fabs, and other digital infrastructure are being built in already water-stressed areas such as Spain and the U.S. state of Arizona.
 
-This limits the availability of water for other human, animal, and ecosystem needs [Manojlovic].
+This limits the availability of water for other human, animal, and ecosystem needs at that same place and time [Manojlovic].
 
 ### Electromagnetic spectrum
 
-Electromagnetic spectrum is a finite resource that continues to be allocated disproportionately to large companies and wealthier countries, despite ITU commitments to more equitable allocation.
+Electromagnetic spectrum is not consumed or depleted by use, and the same frequencies can be reused in different places or at different times. Its scarcity is therefore a matter of capacity rather than abundance: access to specific frequencies at a specific place and time continues to be allocated disproportionately to large companies and wealthier countries, despite ITU commitments to more equitable allocation.
 
 ### Minerals
 
-Mineral extraction depletes finite resources.
+Minerals are the clearest case of an abundance-constrained resource in this document: once a deposit is extracted and consumed, it cannot be replenished on any human timescale. Mineral extraction depletes finite resources.
 
 Extraction requires significant water use.
 
