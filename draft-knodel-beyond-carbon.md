@@ -274,7 +274,7 @@ Carbon footprint is a concept that takes into consideration emissions and global
 
 A primary driver of the carbon emissions of internet infrastructure stems from the energy sources powering it. Not only is it often powered by non-renewable energy sources [IEA], but the amount of energy used is increasing faster than efficiency gains can offset [UptimeInstitute].
 
-In addition, the chip and semiconductor sector has a significant environmental footprint [StandEarth], as do other emerging digital technologies, notably artificial intelligence [SmithAdams].
+In addition, the chip and semiconductor sector has a significant environmental footprint [StandEarth], as do other emerging digital technologies, notably artificial intelligence [SmithAdams]. The packaging and global transport of network equipment and end user devices is a further, often overlooked, source of carbon emissions.
 
 Energy consumption is the unequal distribution of and limitations on use of carbon energy for various purposes. The share of global carbon emissions is unevenly distributed across countries, but also within countries across income levels [Oxfam].
 
@@ -317,6 +317,8 @@ It destroys habitats.
 Extraction processes are toxic at the point of extraction.
 
 This limits the availability of land for other uses.
+
+Manufacturing network equipment and end user devices from these minerals carries its own environmental footprint, separate from the impacts of extraction itself.
 
 Global mineral extraction, processing, and refining also carries significant human rights impacts, including the use of forced labor for minerals sourced from conflict zones [MetalsGreenEurope]. Despite minerals being finite resources, demand for them continues to grow rapidly as new digital and energy technologies depend on them [WorldBankMinerals].
 
