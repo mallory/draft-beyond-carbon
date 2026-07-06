@@ -266,6 +266,7 @@ As the practice of digital sustainability is still in development, we suggest th
 * Timely: Where possible, move towards real-time information about impacts over an annual cadence or slower cadence. More timely data enables more responsiveness and a higher resolution of understanding, as called for in ongoing work on green networking metrics and management [I-D.cx-opsawg-green-metrics] [RFC9845].
 * Within planetary boundaries: Treat the carrying capacity of the planet, as determined by the best available science, as a constraint to work within. There is a safe operating capacity of the planet, that when breached represents a critical risk to people and ecosystems we are part of, causing avoidable harm.
 * Demand and supply can both be levers: Reducing demand for resources is also a valid and important approach in addition to providing supply more efficiently, including by applying Internet architecture principles to energy systems directly [Nordman].
+* Backwards compatibility: The maintenance of existing protocols and backwards compatibility in protocol design, as opposed to new protocol stacks such as "Green IP", reduces the need to manufacture new networking hardware and end user devices.
 
 # Conclusions
 
