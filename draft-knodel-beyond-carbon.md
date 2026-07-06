@@ -245,6 +245,23 @@ informative:
       org: World Bank
     date: 2020
 
+  Roussilhe:
+    target: https://gauthierroussilhe.com/en/articles/water-and-microchips-the-climatic-and-industrial-future-of-taiwan
+    title: "Water and Microchips: The Climatic and Industrial Future of Taiwan"
+    author:
+      name: Gauthier Roussilhe
+    date: 2021
+
+  GEM2024:
+    target: https://www.itu.int/en/ITU-D/Environment/Pages/Publications/The-Global-E-waste-Monitor-2024.aspx
+    title: "The Global E-waste Monitor 2024"
+    author:
+      -
+        org: International Telecommunication Union
+      -
+        org: United Nations Institute for Training and Research
+    date: 2024
+
   EcodesignServers:
     target: https://eur-lex.europa.eu/eli/reg/2019/424/oj
     title: "Commission Regulation (EU) 2019/424 Laying Down Ecodesign Requirements for Servers and Data Storage Products"
@@ -297,27 +314,33 @@ Energy consumption is the unequal distribution of and limitations on use of carb
 
 ## Natural resources
 
-Natural resources such as land, water, minerals and electromagnetic spectrum are all impacted by increased digitalisation and the growth of the internet. The Earth-system-science framework defining the nine “planetary boundaries” of Earth concludes that six of these have been transgressed, suggesting that Earth is now well outside of the safe operating space for humanity. [Richardson]
+Natural resources such as land, water, minerals and electromagnetic spectrum are all impacted by increased digitalisation and the growth of the internet. The Earth-system-science framework defines nine "planetary boundaries": climate change, novel entities (such as chemical pollution and plastics), stratospheric ozone depletion, atmospheric aerosol loading, ocean acidification, biogeochemical flows of nitrogen and phosphorus, freshwater use, land-system change, and biosphere integrity. Six of these -- climate change, novel entities, biogeochemical flows, freshwater use, land-system change, and biosphere integrity -- have already been transgressed, suggesting that Earth is now well outside of the safe operating space for humanity [Richardson].
 
 These resources raise two distinct kinds of scarcity. Some are finite in total quantity because they are non-renewable, raising the question of whether there is enough to go around at all. Others raise a related but orthogonal issue of capacity, which is space-time dependent: whether there is enough to go around at a specific place and time, a question of equitable distribution and usage rather than total abundance.
 
 ### Land
 
-Internet infrastructure is often strategically placed geographically and geopolitically. While the Earth's crust is finite in total (a background abundance constraint), the more immediate impact is one of capacity: a given site, once occupied by internet infrastructure, cannot simultaneously be used by other humans.
+Internet infrastructure now occupies every physical domain: space, including deep space; the ground beneath our feet; and the sea, down to the sea bed.
 
-This scarcity of land also affects animals and other ecosystems. The Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) Global Assessment Report on Biodiversity and Ecosystem Services in 2019 provided a IPCC-like basis for policy and decision making, evaluating 15000 scientific publications, from 145 authors from 40 countries. It found 82% of wild mammal biomass had been lost in the last 50 years, and called for transformative changes to avoid further biodiversity loss. [IPBES]
+New work is beginning at the IETF to define an IP protocol stack for deep space communications, extending internet infrastructure beyond Earth orbit entirely [I-D.many-deepspace-ip-architecture].
 
-A "handprint" is a concept developed in contrast to footprint, to quantify the positive environmental impact of a technology, product, or organization. Footprint and handprint are calculated independently, with footprint minimized and handprint maximized; a positive handprint should not be treated as compensating for a negative footprint, as doing so risks greenwashing [ITUSG5Biodiversity].
-
-Undersea internet cables and related infrastructure disrupt the sea bed. Furthermore untouched areas of the deep sea are being proposed for mining instead of reusing minerals already in circulation [Dutzik]. In addition, undersea internet cables face growing risk from extreme weather and sea level rise affecting the coastal infrastructure they depend on [Durairajan].
+On the ground, internet infrastructure is often strategically placed geographically and geopolitically. While the Earth's crust is finite in total (a background abundance constraint), the more immediate impact is one of capacity: a given site, once occupied by internet infrastructure, cannot simultaneously be used by other humans.
 
 Data centers themselves form a distinct land-use ecology, reshaping the geography, water tables, and energy grids of the regions that host them [Hogan].
 
 Two broad approaches to data center governance have emerged. One is centered on market efficiency, intellectual property protection, and continued growth, often citing competitive advantages such as favorable climate or existing infrastructure. The other treats land, water, and energy as scarce resources rather than assuming their abundance, and argues for centring people and planet over profit and capital [JansenCath]. Product-level standards, such as the European Union's (EU) ecodesign requirements for servers and data storage products, offer a standards-based lever that could help operationalize this latter approach in law, constraining resource use and waste regardless of ownership model [EcodesignServers].
 
+At sea, undersea internet cables and related infrastructure disrupt the sea bed. Furthermore untouched areas of the deep sea are being proposed for mining instead of reusing minerals already in circulation [Dutzik]. In addition, undersea internet cables face growing risk from extreme weather and sea level rise affecting the coastal infrastructure they depend on [Durairajan].
+
+### Animals and other ecosystems
+
+This scarcity of land also affects animals and other ecosystems. The Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services (IPBES) Global Assessment Report on Biodiversity and Ecosystem Services in 2019 provided a IPCC-like basis for policy and decision making, evaluating 15000 scientific publications, from 145 authors from 40 countries. It found 82% of wild mammal biomass had been lost in the last 50 years, and called for transformative changes to avoid further biodiversity loss. [IPBES]
+
+A "handprint" is a concept developed in contrast to footprint, to quantify the positive environmental impact of a technology, product, or organization. Footprint and handprint are calculated independently, with footprint minimized and handprint maximized; a positive handprint should not be treated as compensating for a negative footprint, as doing so risks greenwashing [ITUSG5Biodiversity].
+
 ### Water
 
-Water is used extensively throughout the digital technology sector, particularly within data centers for cooling, for mineral extraction and production, and for chip and semiconductor manufacturing [Mytton]. Water is renewable at a global scale, so the primary issue is one of capacity rather than abundance: whether enough is available in a specific place at a specific time. Water use continues to increase, driven primarily by more advanced AI and cloud computing needs, and often places strain on water resources in the communities surrounding data centers, an effect compounded where non-renewable groundwater aquifers -- themselves an abundance-constrained resource -- are drawn down faster than they can recharge. Many data centers, chip fabs, and other digital infrastructure are being built in already water-stressed areas such as Spain and the U.S. state of Arizona.
+Water is used extensively throughout the digital technology sector, particularly within data centers for cooling, for mineral extraction and production, and for chip and semiconductor manufacturing [Mytton]. Water is renewable at a global scale, so the primary issue is one of capacity rather than abundance: whether enough is available in a specific place at a specific time. Water use continues to increase, driven primarily by more advanced AI and cloud computing needs, and often places strain on water resources in the communities surrounding data centers, an effect compounded where non-renewable groundwater aquifers -- themselves an abundance-constrained resource -- are drawn down faster than they can recharge. Many data centers, chip fabs, and other digital infrastructure are being built in already water-stressed areas such as Spain and the U.S. state of Arizona. Chip fabrication is particularly water-intensive: Taiwan's semiconductor fabs alone consume tens of thousands of cubic meters of water per day, competing directly with agricultural and municipal supply during droughts [Roussilhe].
 
 This limits the availability of water for other human, animal, and ecosystem needs at that same place and time [Manojlovic].
 
@@ -347,11 +370,13 @@ Global mineral extraction, processing, and refining also carries significant hum
 
 In the air -- pollution from fossil fuels, burning e-waste. 
 
-On earth -- sanitation, landfills, polluting soil, limiting use of space, ecosystem disruption, as documented at e-waste processing sites such as Agbogbloshie, Ghana [Akese].
+On earth -- sanitation, landfills, polluting soil, limiting use of space, ecosystem disruption, as documented at e-waste processing sites such as Agbogbloshie, Ghana [Akese]. This waste also poisons water: toxic leachate from landfills and informal e-waste processing sites contaminates groundwater and waterways relied on by surrounding communities.
 
 In the sea -- undersea cables, mineral extraction byproducts, e-waste shipping, pollution.
 
 In space -- debris, crowding the sky scape, congestion, limit of use.
+
+Only a small fraction of e-waste is formally collected and recycled: 22.3% globally in 2022, with e-waste generation growing nearly five times faster than documented recycling. Recycling rates also vary sharply by region, from 42.8% in Europe to less than 1% in African countries [GEM2024].
 
 # Guiding Principles
 
@@ -383,4 +408,4 @@ This document has no IANA actions.
 
 # Acknowledgments
 
-The authors would like to thank Michael Oghia for his detailed review and suggested additions to this document.
+The authors would like to thank Michael Oghia and Emile Stephan for their detailed reviews and suggested additions to this document.
