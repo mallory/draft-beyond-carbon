@@ -252,6 +252,8 @@ The global internet is comprised of vast interconnected networks spanning nearly
 
 # Introduction
 
+The internet is the biggest machine we've ever created, extending from the depths of the ocean all the way to low earth orbit.
+
 Much research has been invested in understanding environmental impacts. Research such as the ‘UN Digital Economy Report: Shaping an environmentally sustainable and inclusive digital future’ examines the true scale and proposed mitigations of the carbon footprint of the internet [UN]. Related research by the World Health Organisation primer on the health impacts of e-Waste details the harms incurred when the majority of e-waste is processed [WHO].
 
 This document originated in discussions at the 2022 IAB Workshop on Environmental Impact of Internet Applications and Systems [RFC9547].
